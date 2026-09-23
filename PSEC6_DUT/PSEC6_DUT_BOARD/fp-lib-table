@@ -1,0 +1,8 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "PSEC6_Packaged_1") (type "KiCad") (uri "C:/Users/inmir/OneDrive/문서/GitHub/PSEC5-Board/PSEC6_DUT/Components/PSEC6_Packaged.pretty") (options "") (descr ""))
+	(lib (name "PSEC6_Packaged_2") (type "KiCad") (uri "C:/Users/arzac/OneDrive/Documents/GitHub/PSEC5-Board/PSEC6_DUT/Components/PSEC6_Packaged.pretty") (options "") (descr ""))
+	(lib (name "PSEC6_Packaged") (type "KiCad") (uri "C:/Users/arzac/OneDrive/Documents/GitHub/PSEC5-Board/PSEC6_DUT/Components/PSEC6_Packaged/PSEC6_Packaged.pretty") (options "") (descr ""))
+	(lib (name "LTC6409IUDB_TRMPBF") (type "KiCad") (uri "C:/Users/arzac/OneDrive/Documents/GitHub/PSEC5-Board/PSEC6_DUT/Components/LTC6409IUDB_TRMPBF/KiCADv6/LTC6409IUDB_TRMPBF.pretty") (options "") (descr ""))
+	(lib (name "LQH2MCN100k02L") (type "KiCad") (uri "C:/Users/arzac/OneDrive/Documents/GitHub/PSEC5-Board/PSEC6_DUT/Components/LQH2MCN100K02L/LQH2MCN100k02L.pretty") (options "") (descr ""))
+)
