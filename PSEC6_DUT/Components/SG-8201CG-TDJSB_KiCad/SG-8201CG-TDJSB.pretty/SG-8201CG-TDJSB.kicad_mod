@@ -1,0 +1,166 @@
+(footprint "SG-8201CG-TDJSB"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Epson SG-8201CG, 2.5x2.0 mm, 4-pad SMD oscillator; recommended land pattern 1.1x0.9 mm pads on 1.7x1.3 mm pitch")
+	(tags "Epson SG-8201CG oscillator 2.5x2.0")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(uuid "3404bd32-5593-4783-ad38-4b21c61dffdb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SG-8201CG-TDJSB"
+		(at 0 2 0)
+		(layer "F.Fab")
+		(uuid "3718ea25-bdf5-4b10-9151-797d1ff9a527")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "54fa1afc-dfe6-4a29-bea2-94719af8337b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4fe20f63-e988-4952-9cfa-0b410db53e45")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.45 -1.2)
+		(end 1.45 -1.2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6f618cd9-3b55-479b-8305-55dc4bc65b41")
+	)
+	(fp_line
+		(start -1.45 -0.55)
+		(end -1.45 -1.2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c575d2b7-2578-47e0-96e1-31d09cfa47f9")
+	)
+	(fp_line
+		(start -1.45 1.2)
+		(end -1.45 0.55)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4fc475f8-1b8c-4307-b118-ffe56d56ab4b")
+	)
+	(fp_line
+		(start 1.45 -1.2)
+		(end 1.45 1.2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "18f01e74-59d8-44d6-a74c-dd7accf6a028")
+	)
+	(fp_line
+		(start 1.45 1.2)
+		(end -1.45 1.2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a2cd5fcb-6442-4a64-bebe-a8688e71862b")
+	)
+	(fp_circle
+		(center -1.65 0.65)
+		(end -1.55 0.65)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1dec586b-1371-4147-b085-ea337c3883ee")
+	)
+	(fp_rect
+		(start -1.55 -1.3)
+		(end 1.55 1.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "03f7976c-40d3-49e9-8023-d0eecb3a2464")
+	)
+	(fp_rect
+		(start -1.25 -1)
+		(end 1.25 1)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a2bf55c4-8905-4c12-b28b-42348fa2244f")
+	)
+	(pad "1" smd roundrect
+		(at -0.85 0.65)
+		(size 1.1 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "d593d743-fa2c-4683-82e2-c736f7def9cb")
+	)
+	(pad "2" smd roundrect
+		(at 0.85 0.65)
+		(size 1.1 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "d0ef4cae-0edd-40f5-b1b6-2fd641d6f8e2")
+	)
+	(pad "3" smd roundrect
+		(at 0.85 -0.65)
+		(size 1.1 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "4ebd44df-1c7f-44ec-be96-8c94de58930b")
+	)
+	(pad "4" smd roundrect
+		(at -0.85 -0.65)
+		(size 1.1 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "0faeed4b-0b0b-4b20-aa0e-2bdcde6006c4")
+	)
+	(embedded_fonts no)
+)

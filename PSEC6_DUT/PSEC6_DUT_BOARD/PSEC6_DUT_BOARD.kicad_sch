@@ -5,6 +5,129 @@
 	(uuid "8c40eb8b-eb69-4f86-94a6-a024d0100f86")
 	(paper "A3")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -2189,6 +2312,157 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SG-8201CG-TDJSB:SG-8201CG-TDJSB"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Y"
+				(at 3.556 4.826 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SG-8201CG-TDJSB"
+				(at 11.684 7.874 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SG-8201CG-TDJSB"
+				(at 1.524 21.082 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://download.epsondevice.com/td/pdf/app/SG-8201CG_en.pdf"
+				(at 2.032 18.542 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Epson SG-8201CG programmable CMOS crystal oscillator, TDJSB option, 2.5x2.0 mm, standby control"
+				(at 2.032 18.542 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SG-8201CG-TDJSB_0_1"
+				(rectangle
+					(start -6.35 6.35)
+					(end 6.35 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SG-8201CG-TDJSB_1_1"
+				(pin input line
+					(at -8.89 0 0)
+					(length 2.54)
+					(name "ST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 8.89 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -2432,6 +2706,16 @@
 		)
 		(uuid "70884466-6d4e-4aa4-a18a-33782f6666c1")
 	)
+	(text "0R\nWhen Pop"
+		(exclude_from_sim no)
+		(at 50.292 263.398 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "126f8e4e-6552-4a35-9c04-d9a7382483a8")
+	)
 	(text "Into ADC Buffer"
 		(exclude_from_sim no)
 		(at 307.594 181.356 0)
@@ -2441,16 +2725,6 @@
 			)
 		)
 		(uuid "23b6a07a-3af1-465a-bb7e-c04c3802e078")
-	)
-	(text "ADD 160 MYz Crystal Clock"
-		(exclude_from_sim no)
-		(at 57.912 241.554 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6453a10e-a7eb-4d26-bb4c-fa999124f36f")
 	)
 	(text "Clock Signal from FPGA"
 		(exclude_from_sim no)
@@ -2637,6 +2911,12 @@
 		(uuid "5a7a7f72-4dfc-4b03-9898-01b7b6537307")
 	)
 	(junction
+		(at 57.15 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d464eb9-7286-4849-9e56-220a36605808")
+	)
+	(junction
 		(at 228.6 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2677,6 +2957,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78ec484a-d3b2-41a4-b5cf-b7d0841261cc")
+	)
+	(junction
+		(at 71.12 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b7012f6-91c0-4172-a720-a32141873c06")
 	)
 	(junction
 		(at 177.8 149.86)
@@ -2881,10 +3167,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc5de05d-8a3e-479e-975c-73d845c193dc")
-	)
-	(no_connect
-		(at 57.15 243.84)
-		(uuid "c66d3322-0881-47d9-9173-93cad17e5b76")
 	)
 	(wire
 		(pts
@@ -3238,6 +3520,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 231.14) (xy 71.12 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "235a4ae3-2f66-473e-8fb4-9137721a253e")
+	)
+	(wire
+		(pts
 			(xy 212.09 270.51) (xy 212.09 274.32)
 		)
 		(stroke
@@ -3335,6 +3627,16 @@
 			(type default)
 		)
 		(uuid "2b400511-1093-49b2-8eda-abc8285b4c16")
+	)
+	(wire
+		(pts
+			(xy 57.15 215.9) (xy 57.15 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ba3f909-9a85-4ad0-b2d8-f9393e01d9e1")
 	)
 	(wire
 		(pts
@@ -3448,6 +3750,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 207.01) (xy 57.15 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33dd9d4e-a67d-4335-bf3c-5c84e5eb6cd2")
+	)
+	(wire
+		(pts
 			(xy 153.67 154.94) (xy 153.67 163.83)
 		)
 		(stroke
@@ -3525,6 +3837,16 @@
 			(type default)
 		)
 		(uuid "3b0ba2cf-b825-46a4-9e2e-e49d1a942a1e")
+	)
+	(wire
+		(pts
+			(xy 71.12 238.76) (xy 71.12 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b0cd259-a68b-43ac-8e2c-50e60f8b8e93")
 	)
 	(wire
 		(pts
@@ -3668,16 +3990,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 252.73) (xy 57.15 259.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50aed8a1-4482-472b-8c51-bcdb67a545c8")
-	)
-	(wire
-		(pts
 			(xy 118.11 243.84) (xy 135.89 243.84)
 		)
 		(stroke
@@ -3705,6 +4017,16 @@
 			(type default)
 		)
 		(uuid "5306de68-2bf0-47d6-9a3c-af3c4dab9a65")
+	)
+	(wire
+		(pts
+			(xy 57.15 218.44) (xy 57.15 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5353410d-a7d2-4801-80f2-0ab0a5f9d0de")
 	)
 	(wire
 		(pts
@@ -3865,6 +4187,16 @@
 			(type default)
 		)
 		(uuid "63695485-22ac-4d07-b94e-8bc4c017ba63")
+	)
+	(wire
+		(pts
+			(xy 71.12 231.14) (xy 81.28 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "639e6cf3-1cd2-4ff9-9ff6-624293752ce4")
 	)
 	(wire
 		(pts
@@ -4398,6 +4730,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 231.14) (xy 71.12 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "923163d9-76ba-455f-b9cc-91c2388048dd")
+	)
+	(wire
+		(pts
 			(xy 111.76 237.49) (xy 135.89 237.49)
 		)
 		(stroke
@@ -4498,6 +4840,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 218.44) (xy 67.31 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e56475b-407e-4f89-8823-922681fc2c5a")
+	)
+	(wire
+		(pts
 			(xy 205.74 154.94) (xy 205.74 163.83)
 		)
 		(stroke
@@ -4558,6 +4910,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 231.14) (xy 43.18 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1d32a3d-072b-42fc-beef-d68c1ed03cca")
+	)
+	(wire
+		(pts
 			(xy 207.01 274.32) (xy 209.55 274.32)
 		)
 		(stroke
@@ -4588,7 +4950,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 243.84) (xy 57.15 247.65)
+			(xy 57.15 240.03) (xy 57.15 259.08)
 		)
 		(stroke
 			(width 0)
@@ -4965,6 +5327,16 @@
 			(type default)
 		)
 		(uuid "bb5d58b9-53ad-49f0-805f-38f2a2c98e78")
+	)
+	(wire
+		(pts
+			(xy 46.99 231.14) (xy 43.18 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd94dde0-3777-449e-aad0-ec6ec34c36b6")
 	)
 	(wire
 		(pts
@@ -6135,6 +6507,30 @@
 		(uuid "7c0ab3ca-5f99-4216-8a6b-e7477d6d7487")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 236.22 134.4772 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VDD25"
+		(shape input)
+		(at 81.28 231.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "856d009f-1831-44fe-a74f-f9473dd04796")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.3128 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7774,6 +8170,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 43.18 234.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29425097-b8e0-44cf-bf18-819bcc07726a")
+		(property "Reference" "#PWR0127"
+			(at 43.18 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.18 240.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 43.18 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fd97e683-afce-4e89-a432-ecab4ebb0083")
+		)
+		(instances
+			(project "PSEC6_DUT_BOARD"
+				(path "/8c40eb8b-eb69-4f86-94a6-a024d0100f86"
+					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PSEC6_Package:PSEC6_Package")
 		(at 154.94 215.9 0)
 		(unit 1)
@@ -8142,6 +8616,84 @@
 			(project "PSEC6_DUT_BOARD"
 				(path "/8c40eb8b-eb69-4f86-94a6-a024d0100f86"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 57.15 207.01 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d056e96-ff37-4441-990e-548ebd49c4b0")
+		(property "Reference" "#PWR0128"
+			(at 57.15 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 57.15 201.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 57.15 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d0b126b3-9ee4-459d-81b8-7dc23109070c")
+		)
+		(instances
+			(project "PSEC6_DUT_BOARD"
+				(path "/8c40eb8b-eb69-4f86-94a6-a024d0100f86"
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -11344,6 +11896,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 71.12 242.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5fc9b25-cb51-4f31-ace3-75d341fb71b5")
+		(property "Reference" "#PWR0124"
+			(at 71.12 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 71.12 247.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bc061774-4a33-48ee-a0e2-9627ea8ec422")
+		)
+		(instances
+			(project "PSEC6_DUT_BOARD"
+				(path "/8c40eb8b-eb69-4f86-94a6-a024d0100f86"
+					(reference "#PWR0124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 226.06 149.86 90)
 		(unit 1)
@@ -11903,8 +12533,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 57.15 250.19 180)
+		(lib_id "Connector:TestPoint")
+		(at 67.31 218.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11913,31 +12543,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c32f705b-e0b7-49b2-a12c-3d253536d547")
-		(property "Reference" "R73"
-			(at 59.69 248.9199 0)
+		(uuid "c2b524ff-e37b-4dec-912a-ba9ae528d463")
+		(property "Reference" "TP1"
+			(at 69.85 213.8679 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "0R"
-			(at 59.69 251.4599 0)
+		(property "Value" "StandBy_Crystal"
+			(at 69.85 216.4079 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 57.15 250.19 0)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+			(at 72.39 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11948,7 +12578,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 250.19 0)
+			(at 72.39 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11958,8 +12588,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
-			(at 57.15 250.19 0)
+		(property "Description" "test point"
+			(at 67.31 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11968,17 +12598,14 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "31477fe4-8bce-44d0-aed9-5db27f1f87a7")
 		)
 		(pin "1"
-			(uuid "2d37a3f9-1aae-4c2c-965a-6e35bd193d3a")
+			(uuid "b62d3d2b-0322-4e01-a3c0-1c5e30e2eb78")
 		)
 		(instances
 			(project "PSEC6_DUT_BOARD"
 				(path "/8c40eb8b-eb69-4f86-94a6-a024d0100f86"
-					(reference "R73")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -12058,6 +12685,87 @@
 			(project "PSEC6_DUT_BOARD"
 				(path "/8c40eb8b-eb69-4f86-94a6-a024d0100f86"
 					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 71.12 236.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c8d00a01-de50-4a8c-8bf0-f7b9def22ad8")
+		(property "Reference" "C127"
+			(at 65.278 234.442 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 65.532 237.744 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 71.12 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 71.12 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "12cdf05d-c953-4966-870b-6c003452225e")
+		)
+		(pin "1"
+			(uuid "e2671bb9-fd12-4250-a9ac-64cd6a4f73a7")
+		)
+		(instances
+			(project "PSEC6_DUT_BOARD"
+				(path "/8c40eb8b-eb69-4f86-94a6-a024d0100f86"
+					(reference "C127")
 					(unit 1)
 				)
 			)
@@ -12328,7 +13036,7 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "DNP"
 			(at 50.8 255.27 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12703,6 +13411,88 @@
 			(project "PSEC6_DUT_BOARD"
 				(path "/8c40eb8b-eb69-4f86-94a6-a024d0100f86"
 					(reference "C95")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 57.15 213.36 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9b87e42-5cb3-4607-a17e-a5f23f022f88")
+		(property "Reference" "R76"
+			(at 59.69 212.0899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "500R"
+			(at 59.69 214.6299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 57.15 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 57.15 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7576b4ed-f545-4684-b1ab-8553a29a7e04")
+		)
+		(pin "1"
+			(uuid "ee7e8d5d-a5ad-4f6a-9f3e-1f0a9ecf03f8")
+		)
+		(instances
+			(project "PSEC6_DUT_BOARD"
+				(path "/8c40eb8b-eb69-4f86-94a6-a024d0100f86"
+					(reference "R76")
 					(unit 1)
 				)
 			)
@@ -13587,6 +14377,92 @@
 		)
 	)
 	(symbol
+		(lib_id "SG-8201CG-TDJSB:SG-8201CG-TDJSB")
+		(at 57.15 231.14 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fae3e696-7993-4437-a067-de7aa4c8477c")
+		(property "Reference" "Y1"
+			(at 73.66 224.7198 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SG-8201CG-TDJSB"
+			(at 73.66 227.2598 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SG-8201CG-TDJSB:SG-8201CG-TDJSB"
+			(at 78.232 232.664 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://download.epsondevice.com/td/pdf/app/SG-8201CG_en.pdf"
+			(at 75.692 233.172 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Epson SG-8201CG programmable CMOS crystal oscillator, TDJSB option, 2.5x2.0 mm, standby control"
+			(at 75.692 233.172 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "7033a8d9-22c8-42be-9ebe-9aee4c5bac08")
+		)
+		(pin "1"
+			(uuid "b5f5bda9-a393-4307-9fae-edf4b6ee3236")
+		)
+		(pin "4"
+			(uuid "aa13bd99-8222-48b8-84d4-71571a42d6d6")
+		)
+		(pin "2"
+			(uuid "33bb2b99-533f-4ee8-8171-b665423e157f")
+		)
+		(instances
+			(project "PSEC6_DUT_BOARD"
+				(path "/8c40eb8b-eb69-4f86-94a6-a024d0100f86"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 180.34 166.37 0)
 		(unit 1)
@@ -13854,7 +14730,7 @@
 		)
 	)
 	(sheet
-		(at 25.4 101.6)
+		(at 25.4 83.82)
 		(size 76.2 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13870,7 +14746,7 @@
 		)
 		(uuid "486c37e9-1b68-4268-805a-1ee575b33f53")
 		(property "Sheetname" "ADC_Buffers"
-			(at 25.4 100.8884 0)
+			(at 25.4 83.1084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13881,7 +14757,7 @@
 			)
 		)
 		(property "Sheetfile" "ADC_Buffers.kicad_sch"
-			(at 25.4 152.9846 0)
+			(at 25.4 135.2046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13900,7 +14776,7 @@
 		)
 	)
 	(sheet
-		(at 25.4 177.8)
+		(at 25.4 138.43)
 		(size 76.2 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13916,7 +14792,7 @@
 		)
 		(uuid "722dbb49-f0e9-4606-ad59-7b2d5179d621")
 		(property "Sheetname" "SMA"
-			(at 25.4 177.0884 0)
+			(at 25.4 137.7184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13927,7 +14803,7 @@
 			)
 		)
 		(property "Sheetfile" "SMA.kicad_sch"
-			(at 25.4 229.1846 0)
+			(at 25.4 189.8146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

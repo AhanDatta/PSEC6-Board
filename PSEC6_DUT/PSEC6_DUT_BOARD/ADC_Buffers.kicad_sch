@@ -20149,7 +20149,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 128.27 314.96 90)
+		(at 128.27 314.96 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20157,7 +20158,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d6ae26dc-52fc-4b52-a120-80a9d6914727")
 		(property "Reference" "R20"
 			(at 128.27 308.61 90)
