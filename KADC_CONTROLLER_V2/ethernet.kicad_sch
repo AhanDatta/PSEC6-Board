@@ -10119,7 +10119,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DP83867CRRGZR:RGZ0048B"
+		(property "Footprint" "DP83867CRRGZR:RGZ0048B_NV"
 			(at 266.954 205.994 0)
 			(hide yes)
 			(show_name no)
