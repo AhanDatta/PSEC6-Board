@@ -2470,6 +2470,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 118.11) (xy 219.71 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2119d70b-6124-4e53-847e-b6540257a0cb")
+	)
+	(wire
+		(pts
 			(xy 196.85 59.69) (xy 196.85 62.23)
 		)
 		(stroke
@@ -2820,16 +2830,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 118.11) (xy 217.17 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6815f0b9-37c8-48cc-8b0e-9ed90a887ac4")
-	)
-	(wire
-		(pts
 			(xy 166.37 148.59) (xy 166.37 151.13)
 		)
 		(stroke
@@ -2857,16 +2857,6 @@
 			(type default)
 		)
 		(uuid "72992b32-fc8f-4e3f-bbf6-14a82ab6fd0c")
-	)
-	(wire
-		(pts
-			(xy 219.71 118.11) (xy 219.71 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72b88f1e-d0fa-4dec-9060-e55e97477736")
 	)
 	(wire
 		(pts
@@ -2917,6 +2907,16 @@
 			(type default)
 		)
 		(uuid "7fb8da8a-eb9b-4866-b1d1-c5e2dd258d39")
+	)
+	(wire
+		(pts
+			(xy 217.17 118.11) (xy 217.17 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81561626-b0d9-4ee3-900b-8323fbe82fce")
 	)
 	(wire
 		(pts
@@ -3642,7 +3642,7 @@
 	)
 	(global_label "REFCLK"
 		(shape input)
-		(at 217.17 118.11 90)
+		(at 219.71 118.11 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3652,7 +3652,7 @@
 		)
 		(uuid "05dd0c21-00d3-4fe5-b5c5-ba3afcdf1ea3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.17 108.0491 90)
+			(at 219.71 108.0491 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3882,7 +3882,7 @@
 	)
 	(global_label "CSB"
 		(shape input)
-		(at 219.71 118.11 90)
+		(at 217.17 118.11 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3892,7 +3892,7 @@
 		)
 		(uuid "328404ff-8545-418c-927c-fde2b4390df3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.71 111.3753 90)
+			(at 217.17 111.3753 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

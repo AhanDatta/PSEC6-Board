@@ -2135,6 +2135,16 @@
 	)
 	(wire
 		(pts
+			(xy 386.08 60.96) (xy 386.08 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acac9ab6-c02d-4b22-990a-56e4e1c67887")
+	)
+	(wire
+		(pts
 			(xy 223.52 76.2) (xy 273.05 76.2)
 		)
 		(stroke
@@ -3201,7 +3211,7 @@
 	)
 	(global_label "PL_2V5"
 		(shape input)
-		(at 386.08 64.77 90)
+		(at 386.08 60.96 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3211,7 +3221,7 @@
 		)
 		(uuid "85c40a93-ac07-4b4d-a58d-b596e0069ee3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 386.08 55.0115 90)
+			(at 386.08 51.2015 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3612,7 +3622,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 385.064 68.326 90)
 			(hide yes)
 			(show_name no)
